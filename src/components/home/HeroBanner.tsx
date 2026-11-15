@@ -9,7 +9,7 @@ export const HeroBanner: React.FC = () => {
       {/* Background High-Fashion Campaign Image (iStock Studio Portrait) */}
       <div className="absolute inset-0 w-full h-full">
         <SafeImage
-          src="/images/hero-istock.webp"
+          src="/images/hero-istock.jpg"
           fallbackSrc="/images/hero-istock.jpg"
           alt="NOORÉ Haute Modesty Campaign — Group Portrait in Modest Attire"
           priority={true}
