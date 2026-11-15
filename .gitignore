@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.cert
+credentials.json
+
+# Local QA & Testing artifacts (per instruction: exclude local test screenshots & logs)
+screenshots/
+qa-report.json
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Debug and system logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

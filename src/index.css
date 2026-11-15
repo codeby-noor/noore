@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sat: env(safe-area-inset-top, 0px);
+    --sar: env(safe-area-inset-right, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #111111;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Prevent iOS Safari 16px auto-zoom on input focus while keeping desktop typography elegant */
+  @media (max-width: 640px) {
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+  }
+}
+
+/* Touch-friendly and momentum scrolling utilities */
+.touch-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Safe area padding utilities for iPhone notches and dynamic islands */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+}
+
+.pt-safe {
+  padding-top: max(0.75rem, env(safe-area-inset-top, 0px));
+}
+
+/* Fluid responsive typography utilities */
+.text-fluid-hero {
+  font-size: clamp(2.25rem, 6vw + 1rem, 5.5rem);
+}
+
+.text-fluid-h1 {
+  font-size: clamp(1.75rem, 4vw + 0.5rem, 3.75rem);
+}
+
+.text-fluid-h2 {
+  font-size: clamp(1.4rem, 2.5vw + 0.5rem, 2.5rem);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C2B69D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
