@@ -9,7 +9,7 @@ export const HeroBanner: React.FC = () => {
       {/* Background High-Fashion Campaign Image */}
       <div className="absolute inset-0 w-full h-full">
         <SafeImage
-          src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=2000&q=85"
+          src="https://www.istockphoto.com/photo/group-portrait-of-beautiful-muslim-women-in-a-fashionable-dress-with-hijab-isolated-gm1483588788-510143977"
           alt="NOORÉ Haute Modesty Campaign"
           priority={true}
           sizes="100vw"
