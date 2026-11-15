@@ -26,7 +26,7 @@ export const CATEGORIES: CategoryInfo[] = [
     name: 'Hijabs',
     subtitle: 'Modal, Chiffon, & Medina Silk',
     description: 'Cloud-soft textures, precision laser-cut hems, and zero-slip finishes in timeless neutral tones.',
-    image: 'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1680012589533-9ba597be37b1?auto=format&fit=crop&w=1200&q=85',
     itemCount: 6,
     highlightText: 'SHOP HIJABS'
   },
