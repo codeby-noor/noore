@@ -8,14 +8,20 @@ if (!fs.existsSync(SCREENSHOT_DIR)) {
 }
 
 const VIEWPORTS = [
-  { name: '01-home-320px-mobile', width: 320, height: 600, device: 'iPhone SE (320px)' },
-  { name: '02-home-375px-mobile', width: 375, height: 667, device: 'iPhone 8 / SE2 (375px)' },
-  { name: '03-home-390px-iphone', width: 390, height: 844, device: 'iPhone 14/15/16 (390px)' },
-  { name: '04-home-430px-mobile', width: 430, height: 932, device: 'iPhone 14/15 Pro Max (430px)' },
-  { name: '05-home-768px-tablet', width: 768, height: 1024, device: 'iPad Portrait (768px)' },
-  { name: '06-home-1024px-tablet', width: 1024, height: 768, device: 'iPad Landscape (1024px)' },
-  { name: '07-home-1440px-desktop', width: 1440, height: 900, device: 'MacBook / Desktop (1440px)' },
-  { name: '08-home-1920px-desktop', width: 1920, height: 1080, device: 'Full HD Desktop (1920px)' },
+  { name: '01-home-320px-iphone-se', width: 320, height: 568, device: 'iPhone SE 1st Gen (320px)' },
+  { name: '02-home-360px-android', width: 360, height: 800, device: 'Samsung Galaxy S / Android (360px)' },
+  { name: '03-home-375px-iphone', width: 375, height: 667, device: 'iPhone 8 / SE2 (375px)' },
+  { name: '04-home-390px-iphone', width: 390, height: 844, device: 'iPhone 12/13/14 (390px)' },
+  { name: '05-home-393px-iphone-pro', width: 393, height: 852, device: 'iPhone 15/16 Pro (393px)' },
+  { name: '06-home-414px-iphone-plus', width: 414, height: 896, device: 'iPhone XR/11/Plus (414px)' },
+  { name: '07-home-430px-iphone-promax', width: 430, height: 932, device: 'iPhone 15/16 Pro Max (430px)' },
+  { name: '08-home-480px-large-mobile', width: 480, height: 854, device: 'Large Mobile Phablet (480px)' },
+  { name: '09-home-768px-ipad-portrait', width: 768, height: 1024, device: 'iPad Portrait (768px)' },
+  { name: '10-home-820px-ipad-air', width: 820, height: 1180, device: 'iPad Air Portrait (820px)' },
+  { name: '11-home-1024px-tablet-landscape', width: 1024, height: 768, device: 'Tablet Landscape (1024px)' },
+  { name: '12-home-1280px-laptop', width: 1280, height: 800, device: 'Laptop (1280px)' },
+  { name: '13-home-1440px-desktop', width: 1440, height: 900, device: 'Desktop / MacBook (1440px)' },
+  { name: '14-home-1920px-fhd-desktop', width: 1920, height: 1080, device: 'Full HD Desktop (1920px)' },
 ];
 
 (async () => {
@@ -30,7 +36,8 @@ const VIEWPORTS = [
     viewportsTested: [],
     overflowErrors: [],
     functionalTests: [],
-    consoleErrors: []
+    consoleErrors: [],
+    failedImages: []
   };
 
   const context = await browser.newContext();
@@ -39,6 +46,12 @@ const VIEWPORTS = [
   page.on('console', msg => {
     if (msg.type() === 'error') {
       results.consoleErrors.push(msg.text());
+    }
+  });
+
+  page.on('response', resp => {
+    if (resp.request().resourceType() === 'image' && resp.status() >= 400) {
+      results.failedImages.push({ url: resp.url(), status: resp.status() });
     }
   });
 
@@ -238,6 +251,7 @@ const VIEWPORTS = [
   console.log('Horizontal Overflow Failures:', results.overflowErrors.length);
   console.log('Functional Tests Passed:', results.functionalTests.filter(t => t.passed).length, '/', results.functionalTests.length);
   console.log('Console Errors Detected:', results.consoleErrors.length);
+  console.log('Failed Image Requests:', results.failedImages.length);
   
   fs.writeFileSync('qa-report.json', JSON.stringify(results, null, 2));
   console.log('\nDetailed QA report saved to qa-report.json');

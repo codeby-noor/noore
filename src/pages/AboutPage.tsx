@@ -63,7 +63,7 @@ export const AboutPage: React.FC = () => {
             </div>
             <div className="aspect-[3/4] overflow-hidden bg-brand-sand mt-6">
               <img
-                src="https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1640154852340-9de73a0643a8?auto=format&fit=crop&w=800&q=80"
                 alt="Model Portrait"
                 className="w-full h-full object-cover"
               />

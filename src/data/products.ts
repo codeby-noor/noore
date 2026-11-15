@@ -21,9 +21,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52 (Petite 5\'0"-5\'2")', '54 (Regular 5\'3"-5\'4")', '56 (Classic 5\'5"-5\'6")', '58 (Tall 5\'7"-5\'8")', '60 (Extended 5\'9"+)'],
     images: [
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1772474500365-c2c520545f44?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474578035-bebcd90b355d?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474521525-c022114367ce?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'An iconic investment piece hand-tailored in our Dubai atelier. Woven from heavyweight double-face Japanese crepe, the Classic Black Abaya offers a clean lapel line, hidden magnetic cuffs for seamless sleeve styling, and a graceful floor-sweeping fluid silhouette.',
     fabricDetails: [
@@ -66,9 +66,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58', '60'],
     images: [
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1752794673269-dc356838c5fd?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135012-56a59a059e60?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Designed for purposeful simplicity, the Everyday Open Abaya is cut with a relaxed shoulder and minimalist collarless neckline. Crafted from our signature Medina silk-touch blend, it catches the slightest breeze without transparency.',
     fabricDetails: [
@@ -110,9 +110,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58', '60'],
     images: [
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1597578843067-5d33f44383db?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474500365-c2c520545f44?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1724412665971-114bd351a42d?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'An homage to modern Gulf grandeur, this couture masterpiece features hand-guided tone-on-tone cordonnet lace trailing down the center and sleeve cuffs. Sculpted from premium Nidha fabric known for its cooling hand-feel and midnight depth.',
     fabricDetails: [
@@ -153,9 +153,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58'],
     images: [
-      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1579298245158-3382b0f4f620?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1762605135326-5c4bcc5ef006?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1728487235101-664d87965931?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Crisp vertical knife pleating cascades from the yoke through the hemline, creating mesmerizing kinetic movement with every stride. The lightweight micro-crepe retains its razor-sharp pleats wash after wash.',
     fabricDetails: [
@@ -197,9 +197,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58', '60'],
     images: [
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1561442748-c50715dc32f6?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135012-56a59a059e60?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1752794673269-dc356838c5fd?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Handcrafted from 100% stonewashed European linen that softens with every wear. Tailored with relaxed raglan sleeves, utility patch pockets, and a timeless collar for modern Mediterranean and Gulf summers alike.',
     fabricDetails: [
@@ -240,9 +240,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58'],
     images: [
-      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1772474521525-c022114367ce?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474578035-bebcd90b355d?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1724412665971-114bd351a42d?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Subtle opulence redefined. Featuring delicate geometric linear embroidery executed with matte lurex threads that catch the light like molten gold, set against pitch-black Korean crepe.',
     fabricDetails: [
@@ -283,9 +283,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58', '60'],
     images: [
-      'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1752794673269-dc356838c5fd?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Inspired by Japanese minimalism and Gulf grace. Cut with an oversized square kimono sleeve, dramatic side vents, and clean raw-edge bindings in a buttery heavy viscose-silk weave.',
     fabricDetails: [
@@ -328,9 +328,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['52', '54', '56', '58', '60'],
     images: [
-      'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1724412665971-114bd351a42d?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474500365-c2c520545f44?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1772474578035-bebcd90b355d?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Tailored for evening galas, Eid banquets, and intimate weddings. Crafted from liquid-finish hammered satin that shimmers subtly under ambient lighting without being overtly glossy. Features flared bell cuffs lined with silk organza.',
     fabricDetails: [
@@ -375,8 +375,8 @@ export const PRODUCTS: Product[] = [
     sizes: ['Standard Maxi (200cm x 75cm)'],
     images: [
       'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1681152299027-17efe7da7081?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1746366618640-9b0257c3cd64?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Our most famous hijab. Woven from high-twist georgette chiffon with a subtle micro-texture that clings gently without slipping or losing structure. Laser-finished rolled edges ensure clean drape around the neckline.',
     fabricDetails: [
@@ -418,9 +418,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Standard (185cm x 70cm)'],
     images: [
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1626254180993-10f70536cfc4?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1643458025240-db4819ce22bc?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1638701130403-e7ced85f0f24?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Engineered for women on the move. Crafted from long-staple combed cotton spun with Austrian modal and spandex, providing 100% pin-free hold that stays locked all day through morning workouts to evening dinners.',
     fabricDetails: [
@@ -462,9 +462,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Maxi (205cm x 80cm)'],
     images: [
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1613447895817-e617a4093f50?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1640154852340-9de73a0643a8?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1641427862119-d5c76c51ef4c?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Eco-conscious luxury at its pinnacle. Woven exclusively from certified Austrian beechwood Lenzing Modal. Feathery lightweight yet completely opaque when folded once, it drapes like liquid velvet.',
     fabricDetails: [
@@ -506,9 +506,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Square (100cm x 100cm)', 'Rectangle (190cm x 70cm)'],
     images: [
-      'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1585728748176-455ac5eed962?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1613611927458-3ddd4b0afdb9?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Crafted with a luxurious dual-face construction: lustrous pearlescent satin on the exterior for formal opulence, paired with a brushed matte backing that anchors securely against the undercap.',
     fabricDetails: [
@@ -549,9 +549,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Maxi (195cm x 85cm)'],
     images: [
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1746366618640-9b0257c3cd64?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1643458180338-02c4fa4be53c?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1681152299027-17efe7da7081?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Spun from 100% GOTS certified organic Aegean cotton. Features a subtle airy weave that provides generous volume around the crown without adding bulk or heat.',
     fabricDetails: [
@@ -593,9 +593,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Generous Maxi (200cm x 90cm)'],
     images: [
-      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1643457750585-14ee3c47d8bd?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1643458048025-72acad148ef9?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1613447895817-e617a4093f50?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The ultimate travel and daily hijab. Featuring permanent heat-crinkled micro-textures that disguise wrinkles and add natural sculptural body without pins or shaping accessories.',
     fabricDetails: [
@@ -640,8 +640,8 @@ export const PRODUCTS: Product[] = [
     sizes: ['XS (US 2-4)', 'S (US 6)', 'M (US 8-10)', 'L (US 12-14)', 'XL (US 16)'],
     images: [
       'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The epitome of refined modest dressing. Comprising a structured high-neck longline tunic featuring dramatic high side-slits and paired with fluid floor-skimming wide-leg trousers with an elasticated back waistband.',
     fabricDetails: [
@@ -682,8 +682,8 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'A versatile foundational garment designed to be layered under open abayas or worn alone over wide-leg pants. Features a clean mandarin band collar, concealed placket, and real Australian mother-of-pearl buttons.',
@@ -726,9 +726,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['XS (26")', 'S (28")', 'M (30")', 'L (32")', 'XL (34")'],
     images: [
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1668028554553-f83cac89ce0f?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1668028554854-245f8ccae15b?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Cut with a flattering high waist, deep front pleats, and wide flowing legs that skim gracefully over footwear. Featuring a flat front with comfort-elasticated back waist.',
     fabricDetails: [
@@ -770,9 +770,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Petite (Under 5\'3")', 'Regular (5\'4"-5\'7")', 'Tall (5\'8"+)'],
     images: [
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1662806407800-56793fa8e924?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1643458180338-02c4fa4be53c?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1638701130403-e7ced85f0f24?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Engineered for peace and spiritual tranquility. Crafted from 100% cooling organic bamboo rayon, featuring an integrated attached headscarf that slips on in under 3 seconds with zero pins required. Includes hidden wrist loops to ensure arms remain covered in all postures.',
     fabricDetails: [
@@ -814,9 +814,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['One Size (Adaptable elastic waistband)'],
     images: [
-      'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1638701130403-e7ced85f0f24?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1662806407800-56793fa8e924?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1643458180338-02c4fa4be53c?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'A traditional French jilbab silhouette refined into a modern two-piece prayer set. Includes a knee-length overhead khimar with tie-back straps and an A-line elasticated floor skirt. Packaged in a compact drawstring satin bag.',
     fabricDetails: [
@@ -857,9 +857,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1616313253719-c46514cddee1?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1773439879064-53483d0ce0d1?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The definitive foundation for every open abaya or kimono. Tailored with a modest crewneck, long slim sleeves, and a column A-line silhouette in our non-static, non-cling modal jersey blend.',
     fabricDetails: [
@@ -898,9 +898,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['One Size (Adjustable tie back)'],
     images: [
-      'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1614177919002-8b868f0ac5bb?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1585728748176-455ac5eed962?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1626254180993-10f70536cfc4?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Pack of three essential cross-front undercaps. Specially contoured with an open tube back and tie-strings to alleviate tension headaches and protect fragile edges from friction or breakage.',
     fabricDetails: [
@@ -940,9 +940,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Pair of 2 Sets (4 pieces)'],
     images: [
-      'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Replace dangerous needles with our sleek magnetic closures. Featuring ultra-grade neodymium magnets encapsulated in scratch-resistant matte alloy that glides on silk and chiffon without snagging or puncturing threads.',
     fabricDetails: [
@@ -981,9 +981,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Set of 4'],
     images: [
-      'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Handcrafted jeweler-grade styling pins tipped with cultured freshwater shell pearls. Ultra-polished 0.5mm stainless steel shafts slide effortlessly through chiffon without causing thread pulls.',
     fabricDetails: [
@@ -1022,9 +1022,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Regular (170cm)', 'Long (210cm)'],
     images: [
-      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The finishing couture touch. Hand-plaited by European leather artisans using fine strips of supple lambskin intermeshed with pure mulberry silk cord, capped with heavy brushed brass finials.',
     fabricDetails: [

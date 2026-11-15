@@ -27,7 +27,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   const srcSet = !hasError && src && src.includes('unsplash.com') ? getSrcSet(src) : undefined;
 
   return (
-    <div className={`relative overflow-hidden bg-brand-sand/70 ${aspectRatioClass} w-full`}>
+    <div className={`relative overflow-hidden bg-brand-sand/70 ${aspectRatioClass} w-full ${aspectRatioClass ? '' : 'h-full'}`}>
       {/* Loading Shimmer Skeleton (prevents CLS) */}
       {!isLoaded && !hasError && (
         <div className="absolute inset-0 bg-gradient-to-r from-brand-sand via-brand-warmBeige/50 to-brand-sand animate-pulse" />
@@ -40,7 +40,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
         alt={alt}
         loading={priority ? 'eager' : 'lazy'}
         decoding={priority ? 'sync' : 'async'}
-        {...(priority ? ({ fetchpriority: 'high' } as any) : {})}
+        {...(priority ? ({ fetchpriority: 'high' } as any) : ({ fetchpriority: 'low' } as any))}
         onLoad={() => setIsLoaded(true)}
         onError={() => {
           setHasError(true);

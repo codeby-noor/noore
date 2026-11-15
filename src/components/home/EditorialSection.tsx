@@ -8,7 +8,7 @@ export const EditorialSection: React.FC = () => {
       {/* Background with Editorial Layout */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=2000&q=85"
+          src="https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=2000&q=85"
           alt="The Art of Everyday Modesty Editorial"
           className="w-full h-full object-cover object-center opacity-40 mix-blend-luminosity scale-105 transition-transform duration-1000 ease-out"
         />

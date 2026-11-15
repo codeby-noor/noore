@@ -38,7 +38,7 @@ export const BrandStorySection: React.FC = () => {
             </div>
             <div className="aspect-[3/4] overflow-hidden bg-brand-sand mt-8">
               <img
-                src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=800&q=80"
                 alt="Minimalist Tailoring"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"

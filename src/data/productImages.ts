@@ -13,7 +13,7 @@ export interface ProductImageSet {
 /**
  * Optimizes an Unsplash URL with width, format, and quality parameters
  */
-export function getOptimizedImageUrl(url: string, width: number = 800, quality: number = 80): string {
+export function getOptimizedImageUrl(url: string, width: number = 720, quality: number = 80): string {
   if (!url || !url.includes('unsplash.com')) return url;
   
   // Extract base URL before query parameters
@@ -23,11 +23,12 @@ export function getOptimizedImageUrl(url: string, width: number = 800, quality: 
 
 /**
  * Generates responsive srcset string for high-DPI displays and responsive mobile screens
+ * Uses optimal widths (320w, 480w, 720w, 960w, 1440w) to drastically reduce mobile payload
  */
 export function getSrcSet(url: string): string {
   if (!url || !url.includes('unsplash.com')) return '';
   const baseUrl = url.split('?')[0];
-  return `${baseUrl}?auto=format&fit=crop&w=400&q=75 400w, ${baseUrl}?auto=format&fit=crop&w=800&q=80 800w, ${baseUrl}?auto=format&fit=crop&w=1200&q=85 1200w, ${baseUrl}?auto=format&fit=crop&w=1600&q=85 1600w`;
+  return `${baseUrl}?auto=format&fit=crop&w=320&q=75 320w, ${baseUrl}?auto=format&fit=crop&w=480&q=80 480w, ${baseUrl}?auto=format&fit=crop&w=720&q=80 720w, ${baseUrl}?auto=format&fit=crop&w=960&q=80 960w, ${baseUrl}?auto=format&fit=crop&w=1440&q=85 1440w`;
 }
 
 /**
