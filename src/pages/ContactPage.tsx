@@ -73,7 +73,7 @@ export const ContactPage: React.FC = () => {
                   <MapPin className="w-4 h-4 text-neutral-700 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold uppercase tracking-wider text-brand-black block mb-0.5">
-                      Private Salon Locations
+                      Atelier & Boutique Locations
                     </span>
                     <p className="text-neutral-600 leading-relaxed">
                       <strong>Dubai:</strong> Design District (d3), Building 7, Suite 402<br />

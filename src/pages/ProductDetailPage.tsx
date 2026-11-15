@@ -141,7 +141,7 @@ export const ProductDetailPage: React.FC = () => {
                 categoryLabel={product.categoryName}
                 priority={true}
                 sizes="(max-width: 1024px) 100vw, 60vw"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-104"
+                className="w-full h-full object-cover transition-transform duration-700 sm:group-hover:scale-104"
                 onClick={() => setIsLightboxOpen(true)}
               />
 
@@ -162,19 +162,19 @@ export const ProductDetailPage: React.FC = () => {
 
             {/* Thumbnail Horizontal Scroller */}
             {product.images.length > 1 && (
-              <div className="flex gap-2.5 overflow-x-auto pb-2 scrollbar-none touch-scroll">
+              <div className="flex gap-2.5 w-full max-w-full overflow-x-auto pb-2 scrollbar-none touch-scroll">
                 {product.images.map((img, idx) => (
                   <button
                     key={idx}
                     onClick={() => setActiveImageIndex(idx)}
-                    className={`w-18 sm:w-24 aspect-[3/4] flex-shrink-0 bg-brand-sand overflow-hidden border-2 transition-all ${
+                    className={`w-16 sm:w-20 aspect-[3/4] flex-shrink-0 bg-brand-sand overflow-hidden border-2 transition-all ${
                       activeImageIndex === idx
-                        ? 'border-brand-black opacity-100 scale-102'
+                        ? 'border-brand-black opacity-100'
                         : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
                     aria-label={`View photo ${idx + 1}`}
                   >
-                    <img src={img} alt="" className="w-full h-full object-cover" />
+                    <img src={img} alt="" className="w-full h-full object-cover pointer-events-none" />
                   </button>
                 ))}
               </div>
@@ -244,7 +244,7 @@ export const ProductDetailPage: React.FC = () => {
                         className={`w-8 h-8 rounded-full p-0.5 border transition-all active:scale-95 ${
                           isSelected
                             ? 'border-brand-black ring-1 ring-brand-black scale-110'
-                            : 'border-transparent hover:scale-105 opacity-80 hover:opacity-100'
+                            : 'border-transparent sm:hover:scale-105 opacity-80 hover:opacity-100'
                         }`}
                         title={color.name}
                         aria-label={color.name}

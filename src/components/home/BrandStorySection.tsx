@@ -32,7 +32,7 @@ export const BrandStorySection: React.FC = () => {
               <img
                 src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=80"
                 alt="Fabric Drape Detail"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover sm:hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
             </div>
@@ -40,7 +40,7 @@ export const BrandStorySection: React.FC = () => {
               <img
                 src="https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=800&q=80"
                 alt="Minimalist Tailoring"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover sm:hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
             </div>

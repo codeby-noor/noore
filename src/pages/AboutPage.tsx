@@ -30,7 +30,7 @@ export const AboutPage: React.FC = () => {
         {/* Editorial Image Banner */}
         <div className="aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden bg-brand-sand mb-20 shadow-xs">
           <img
-            src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=2000&q=85"
+            src="https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=2000&q=85"
             alt="NOORÉ Atelier Craftsmanship"
             className="w-full h-full object-cover object-center"
           />
@@ -110,7 +110,7 @@ export const AboutPage: React.FC = () => {
                 03. LONDON
               </span>
               <h3 className="font-serif text-xl text-brand-black font-normal">
-                Global Salon & Client Concierge
+                Flagship Atelier & Client Concierge
               </h3>
               <p className="text-xs text-neutral-600 font-light leading-relaxed">
                 Hosting private trunk shows and international courier dispatches for our discerning clientele worldwide.

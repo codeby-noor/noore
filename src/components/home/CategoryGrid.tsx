@@ -40,7 +40,7 @@ export const CategoryGrid: React.FC = () => {
                 alt={CATEGORIES[0].name}
                 categoryLabel={CATEGORIES[0].name}
                 sizes="(max-width: 768px) 100vw, 60vw"
-                className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out group-hover:scale-105"
+                className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out sm:group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent transition-opacity duration-300" />
               <div className="absolute bottom-0 inset-x-0 p-5 sm:p-8 text-white flex flex-col justify-end">
@@ -73,7 +73,7 @@ export const CategoryGrid: React.FC = () => {
                 alt={CATEGORIES[1].name}
                 categoryLabel={CATEGORIES[1].name}
                 sizes="(max-width: 768px) 100vw, 40vw"
-                className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out group-hover:scale-105"
+                className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out sm:group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
               <div className="absolute bottom-0 inset-x-0 p-5 sm:p-8 text-white flex flex-col justify-end">
@@ -106,7 +106,7 @@ export const CategoryGrid: React.FC = () => {
                   alt={cat.name}
                   categoryLabel={cat.name}
                   sizes="(max-width: 768px) 100vw, 33vw"
-                  className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out group-hover:scale-105"
+                  className="w-full h-full object-cover object-[center_25%] sm:object-[center_20%] transition-transform duration-1000 ease-out sm:group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
                 <div className="absolute bottom-0 inset-x-0 p-5 sm:p-6 text-white flex flex-col justify-end">

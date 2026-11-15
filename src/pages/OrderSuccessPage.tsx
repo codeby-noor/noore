@@ -55,7 +55,7 @@ export const OrderSuccessPage: React.FC = () => {
           </div>
 
           <span className="text-[10px] uppercase tracking-super-wide text-neutral-400 block mb-2 font-mono">
-            ORDER CONFIRMED · HAUTE SALON DISPATCH
+            ORDER CONFIRMED · ATELIER DISPATCH
           </span>
 
           <h1 className="font-serif text-3xl sm:text-4xl text-brand-black font-normal tracking-tight mb-3">

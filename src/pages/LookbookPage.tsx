@@ -91,7 +91,7 @@ export const LookbookPage: React.FC = () => {
                     <img
                       src={entry.image}
                       alt={entry.title}
-                      className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-103"
+                      className="w-full h-full object-cover transition-transform duration-1000 ease-out sm:group-hover:scale-103"
                       loading="lazy"
                     />
                     <div className="absolute top-4 left-4 bg-brand-black text-white text-[10px] uppercase tracking-widest px-3 py-1 font-mono">

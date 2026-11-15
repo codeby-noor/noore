@@ -6,11 +6,11 @@ export const EditorialSection: React.FC = () => {
   return (
     <section className="relative w-full py-24 md:py-36 bg-brand-charcoal text-white overflow-hidden">
       {/* Background with Editorial Layout */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=2000&q=85"
           alt="The Art of Everyday Modesty Editorial"
-          className="w-full h-full object-cover object-center opacity-40 mix-blend-luminosity scale-105 transition-transform duration-1000 ease-out"
+          className="w-full h-full object-cover object-center opacity-40 mix-blend-luminosity sm:scale-105 transition-transform duration-1000 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-charcoal via-brand-charcoal/80 to-transparent" />
       </div>

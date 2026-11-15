@@ -24,6 +24,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   const [isQuickViewOpen, setIsQuickViewOpen] = useState(false);
   const [selectedColorIndex, setSelectedColorIndex] = useState(0);
 
+  const handleMouseEnter = () => {
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      setIsHovered(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   const isFavorited = isInWishlist(product.id);
 
   const primaryImage = product.images[0];
@@ -56,8 +66,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     <>
       <div
         className="group relative flex flex-col cursor-pointer w-full"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         {/* Image Container with Hover Swap & Touch-friendly Badges */}
         <div className={`relative w-full ${aspectClass} overflow-hidden bg-brand-sand/60`}>
@@ -65,7 +75,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             {/* Primary Image */}
             <div
               className={`absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out ${
-                isHovered && secondaryImage !== primaryImage ? 'opacity-0 scale-105' : 'opacity-100 scale-100'
+                isHovered && secondaryImage !== primaryImage ? 'opacity-0 sm:scale-105' : 'opacity-100 scale-100'
               }`}
             >
               <SafeImage
@@ -82,7 +92,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             {secondaryImage && secondaryImage !== primaryImage && (
               <div
                 className={`absolute inset-0 w-full h-full transition-all duration-700 ease-in-out hidden sm:block ${
-                  isHovered ? 'opacity-100 scale-105' : 'opacity-0 scale-100'
+                  isHovered ? 'opacity-100 sm:scale-105' : 'opacity-0 scale-100'
                 }`}
               >
                 <SafeImage

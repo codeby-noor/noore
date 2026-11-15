@@ -204,30 +204,32 @@ export const ShopPage: React.FC = () => {
           </p>
 
           {/* Category Quick Pills */}
-          <div className="flex items-center space-x-2 mt-5 sm:mt-6 overflow-x-auto pb-2 scrollbar-none touch-scroll">
-            <Link
-              to="/shop"
-              className={`px-3.5 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs uppercase tracking-widest whitespace-nowrap transition-colors border ${
-                selectedCategory === 'all' && !urlFilter
-                  ? 'bg-brand-black text-white border-brand-black font-medium'
-                  : 'bg-white text-neutral-600 border-brand-border hover:border-black'
-              }`}
-            >
-              All Pieces
-            </Link>
-            {CATEGORIES.map((cat) => (
+          <div className="w-full max-w-full overflow-hidden mt-5 sm:mt-6">
+            <div className="flex items-center space-x-2 overflow-x-auto pb-2 scrollbar-none touch-scroll w-full">
               <Link
-                key={cat.id}
-                to={`/category/${cat.slug}`}
-                className={`px-3.5 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs uppercase tracking-widest whitespace-nowrap transition-colors border ${
-                  selectedCategory === cat.slug || selectedCategory === cat.id
+                to="/shop"
+                className={`px-3.5 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs uppercase tracking-widest whitespace-nowrap transition-colors border flex-shrink-0 ${
+                  selectedCategory === 'all' && !urlFilter
                     ? 'bg-brand-black text-white border-brand-black font-medium'
                     : 'bg-white text-neutral-600 border-brand-border hover:border-black'
                 }`}
               >
-                {cat.name}
+                All Pieces
               </Link>
-            ))}
+              {CATEGORIES.map((cat) => (
+                <Link
+                  key={cat.id}
+                  to={`/category/${cat.slug}`}
+                  className={`px-3.5 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs uppercase tracking-widest whitespace-nowrap transition-colors border flex-shrink-0 ${
+                    selectedCategory === cat.slug || selectedCategory === cat.id
+                      ? 'bg-brand-black text-white border-brand-black font-medium'
+                      : 'bg-white text-neutral-600 border-brand-border hover:border-black'
+                  }`}
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 

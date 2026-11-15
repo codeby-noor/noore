@@ -639,9 +639,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['XS (US 2-4)', 'S (US 6)', 'M (US 8-10)', 'L (US 12-14)', 'XL (US 16)'],
     images: [
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1752794673269-dc356838c5fd?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The epitome of refined modest dressing. Comprising a structured high-neck longline tunic featuring dramatic high side-slits and paired with fluid floor-skimming wide-leg trousers with an elasticated back waistband.',
     fabricDetails: [
@@ -683,8 +683,8 @@ export const PRODUCTS: Product[] = [
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     images: [
       'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1574015974293-817f0ebebb74?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1760083545495-b297b1690672?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'A versatile foundational garment designed to be layered under open abayas or worn alone over wide-leg pants. Features a clean mandarin band collar, concealed placket, and real Australian mother-of-pearl buttons.',
     fabricDetails: [
@@ -728,7 +728,7 @@ export const PRODUCTS: Product[] = [
     images: [
       'https://images.unsplash.com/photo-1668028554553-f83cac89ce0f?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1668028554854-245f8ccae15b?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Cut with a flattering high waist, deep front pleats, and wide flowing legs that skim gracefully over footwear. Featuring a flat front with comfort-elasticated back waist.',
     fabricDetails: [
@@ -857,8 +857,8 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1616313253719-c46514cddee1?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1773439879064-53483d0ce0d1?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1752794673269-dc356838c5fd?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135012-56a59a059e60?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1552874869-5c39ec9288dc?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The definitive foundation for every open abaya or kimono. Tailored with a modest crewneck, long slim sleeves, and a column A-line silhouette in our non-static, non-cling modal jersey blend.',
@@ -940,9 +940,9 @@ export const PRODUCTS: Product[] = [
     ],
     sizes: ['Pair of 2 Sets (4 pieces)'],
     images: [
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
+      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Replace dangerous needles with our sleek magnetic closures. Featuring ultra-grade neodymium magnets encapsulated in scratch-resistant matte alloy that glides on silk and chiffon without snagging or puncturing threads.',
     fabricDetails: [
@@ -982,7 +982,7 @@ export const PRODUCTS: Product[] = [
     sizes: ['Set of 4'],
     images: [
       'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1613611927458-3ddd4b0afdb9?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'Handcrafted jeweler-grade styling pins tipped with cultured freshwater shell pearls. Ultra-polished 0.5mm stainless steel shafts slide effortlessly through chiffon without causing thread pulls.',
@@ -1023,7 +1023,7 @@ export const PRODUCTS: Product[] = [
     sizes: ['Regular (170cm)', 'Long (210cm)'],
     images: [
       'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80'
     ],
     description: 'The finishing couture touch. Hand-plaited by European leather artisans using fine strips of supple lambskin intermeshed with pure mulberry silk cord, capped with heavy brushed brass finials.',
